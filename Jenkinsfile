@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo '202206031803시'
+                echo '202206031808'
             }
         }
         stage('Deploy') {
@@ -23,7 +23,7 @@ pipeline {
     
     post {
         always {
-            echo '202206031803 pipeline done!!!!'
+            echo '202206031808 pipeline done!!!!'
         }
     }
 }
