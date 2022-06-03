@@ -6,12 +6,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building..---hyeminshin99 agent!'
             }
         }
         stage('Test') {
             steps {
-                echo '202206031824'
+                echo '202206031824 :current time'
             }
         }
         stage('Deploy') {
