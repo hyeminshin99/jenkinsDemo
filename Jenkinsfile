@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo 'SeleniumMaven..'
+                echo '202206031803'
             }
         }
         stage('Deploy') {
@@ -23,7 +23,7 @@ pipeline {
     
     post {
         always {
-            echo 'pipeline done!!!!'
+            echo '202206031803 pipeline done!!!!'
         }
     }
 }
