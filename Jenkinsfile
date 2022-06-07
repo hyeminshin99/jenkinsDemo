@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo '202206031824 :current time'
+                echo '202206071023 :current time'
             }
         }
         stage('Deploy') {
@@ -23,7 +23,7 @@ pipeline {
     
     post {
         always {
-            echo '202206031824 pipeline done!!!!'
+            echo '202206071023 pipeline done!!!!'
         }
     }
 }
